@@ -1,7 +1,7 @@
 %define shortname entagged-audioformats
 Name:		%{shortname}-java
 Version:	0.15
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	LGPLv2+
 URL:		http://entagged.sourceforge.net/
 Source:		entagged-audioformats-source-%{version}.tar.gz
@@ -9,6 +9,7 @@ Group:		Development/Java
 Summary:	library to access and modify tags in audio files
 Requires:	java
 BuildRequires:	java-devel ant
+BuildArch:	noarch
 %description
 Java library to access and modify tags in audio files.
 
