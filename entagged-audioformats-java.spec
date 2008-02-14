@@ -6,6 +6,7 @@ License:	LGPLv2+
 URL:		http://entagged.sourceforge.net/
 Source:		entagged-audioformats-source-%{version}.tar.gz
 Group:		Development/Java
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Summary:	library to access and modify tags in audio files
 Requires:	java
 BuildRequires:	java-devel ant
