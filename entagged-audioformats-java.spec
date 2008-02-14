@@ -7,7 +7,7 @@ URL:		http://entagged.sourceforge.net/
 Source:		entagged-audioformats-source-%{version}.tar.gz
 Group:		Development/Java
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Summary:	library to access and modify tags in audio files
+Summary:	Library to access and modify tags in audio files
 Requires:	java
 BuildRequires:	java-devel ant
 BuildArch:	noarch
@@ -34,7 +34,7 @@ ln -s %{shortname}-%{version}.jar %{shortname}.jar
 
 %package -n %{shortname}-javadoc
 Group:		Development/Java
-Summary:	javadoc for %{shortname}
+Summary:	Javadoc for %{shortname}
 %description -n %{shortname}-javadoc
 javadoc for %{shortname}
 
