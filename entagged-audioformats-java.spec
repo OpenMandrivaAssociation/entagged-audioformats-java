@@ -1,7 +1,7 @@
 %define shortname entagged-audioformats
 Name:		%{shortname}-java
 Version:	0.15
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	LGPLv2+
 URL:		http://entagged.sourceforge.net/
 Source:		entagged-audioformats-source-%{version}.tar.gz
