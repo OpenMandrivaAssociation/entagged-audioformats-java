@@ -41,3 +41,28 @@ javadoc for %{shortname}
 %files -n %{shortname}-javadoc
 %doc audioformats/javadoc
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.15-6mdv2011.0
++ Revision: 618233
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 0.15-5mdv2010.0
++ Revision: 428627
+- rebuild
+
+* Tue Jul 22 2008 Thierry Vignaud <tv@mandriva.org> 0.15-4mdv2009.0
++ Revision: 240686
+- rebuild
+- fix summary-not-capitalized
+- fix no-buildroot-tag
+
+* Wed Sep 05 2007 Nicolas Vigier <nvigier@mandriva.com> 0.15-2mdv2008.0
++ Revision: 80038
+- package is noarch
+
+* Wed Sep 05 2007 Nicolas Vigier <nvigier@mandriva.com> 0.15-1mdv2008.0
++ Revision: 80018
+- Import entagged-audioformats-java
+
