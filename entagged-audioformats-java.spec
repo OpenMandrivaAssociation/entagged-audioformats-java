@@ -3,7 +3,7 @@ Name:		%{shortname}-java
 Version:	0.15
 Release:	7
 License:	LGPLv2+
-URL:		http://entagged.sourceforge.net/
+URL:		https://entagged.sourceforge.net/
 Source:		entagged-audioformats-source-%{version}.tar.gz
 Group:		Development/Java
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
